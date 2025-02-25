@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "喝水提醒",
+  "version": "1.0",
+  "description": "定时提醒喝水的Chrome扩展",
+  "permissions": ["alarms", "notifications", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "images/d389454751c724d361826721d6072d55.gif"
+  }
+}
